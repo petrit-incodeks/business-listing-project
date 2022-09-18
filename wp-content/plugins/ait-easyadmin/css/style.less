@@ -1,0 +1,149 @@
+/* ================ */
+/* = PAGE WRAPPER = */
+/* ================ */
+
+#wpwrap { background: @pageBackground; color: @fontColor; }
+
+
+/* ========== */
+/* = HEADER = */
+/* ========== */
+
+.LogoWithNawButtonsWrap 	{ background: -webkit-linear-gradient(@headerColor1, @headerColor2); background: -o-linear-gradient(@headerColor1, @headerColor2); background: -moz-linear-gradient(@headerColor1, @headerColor2); background: linear-gradient(@headerColor1, @headerColor2); }
+
+
+	/* ============= */
+	/* = MAIN MENU = */
+	/* ============= */
+
+	.easyAdmin_menu_holder { background: @menuBackgroundColor; box-sizing: border-box; }
+	.easyAdmin_menu_holder li a.button-primary { color: @menuFontColor; }
+
+	/* MAIN MENU HOVER */
+
+	.easyAdmin_menu_holder li a.button-primary:hover,
+	.easyAdmin_menu_holder li a.button-primary:active,
+	.easyAdmin_menu_holder li a.button-primary:focus
+	{ background: @pageBackground; box-shadow: none; color: @menuBackgroundColor; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3); outline: none; vertical-align: middle; }
+
+	.wp-core-ui .button-primary.focus, 
+	.wp-core-ui .button-primary:focus { background: none; color: @menuBackgroundColor; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3); outline: none; vertical-align: middle; }
+
+	/* SIDEBAR MENU */
+
+	.mainNawButtons li a.button-primary 		{ color: @menuFontColor; }
+	.mainNawButtons li a.button-primary:hover 	{ color: darken(@headerColor1, 30%); }
+	.mainNawButtons li a.button-primary:focus 	{ color: darken(@headerColor1, 30%); background: none; box-shadow: none; border: 0 none; text-shadow: none; }
+
+	.mainNawButtons li a.viewsite,
+	.mainNawButtons li a.viewsite:hover 		{ background: url(img/menu-viewsite.png) no-repeat left center; }
+	.mainNawButtons li a.profile,
+	.mainNawButtons li a.profile:hover 			{ background: url(img/menu-profile.png) no-repeat left center; }
+	.mainNawButtons li a.logout,
+	.mainNawButtons li a.logout:hover 			{ background: url(img/menu-logout.png) no-repeat left center; }	
+
+
+/* =================== */
+/* = CONTENT WRAPPER = */
+/* =================== */
+
+#wpbody 	{ max-width: @maxWidth !important; }
+.wrap 		{ margin: 30px 0; position: relative; }
+.wrap h2 	{ background: @contentBackround; border: 1px solid darken(@pageBackground, 10%); color: @headerh2 !important; padding: 20px 30px; }
+
+#menu-management .menu-edit, 
+#menu-settings-column .accordion-container, 
+.feature-filter, .imgedit-group, .manage-menus, 
+.menu-item-handle, .popular-tags, .stuffbox, 
+.widget-inside, .widget-top, .widgets-holder-wrap, 
+.wp-editor-container, p.popular-tags, table.widefat { border: 1px solid darken(@pageBackground, 10%); box-shadow: none; }
+
+.form-table th, 
+.subsubsub a .count, 
+.tablenav .displaying-num, 
+.tablenav .tablenav-pages, 
+.subsubsub a { color: @mainFont; }
+
+/* MAIN TABLE */
+
+table.widefat thead tr th { 
+	background: @menuBackgroundColor; color: @menuFontColor; 
+	a 		{ color: @menuFontColor; }
+	a:hover { color: darken(@menuFontColor, 20%); }
+	a:active { color: darken(@menuFontColor, 20%); }
+	a:focus { color: darken(@menuFontColor, 20%); }
+}
+
+/* Comments column */
+th .comment-grey-bubble:before { color: @menuFontColor; }
+
+
+/* MEDIA SECTION */
+
+.media-frame.mode-grid .attachments-browser .attachments { background: @contentBackround; border: 1px solid darken(@pageBackground, 10%); }
+.wp-filter { border: 1px solid darken(@pageBackground, 10%); box-shadow: none; }
+
+
+/* =========== */
+/* = BUTTONS = */
+/* =========== */
+
+.wp-core-ui .button, 
+.wrap .add-new-h2, 
+.avada_upload_button { background: @buttonColor !important; color: @buttonTextColor !important; text-align: center !important; border-color: @headerColor1 !important; box-shadow: none !important; } 
+
+/*#misc-publishing-actions label[for="post_status"]:before, 
+#post-body #visibility:before, 
+.curtime #timestamp:before, 
+#post-body .misc-pub-revisions:before,
+span.wp-media-buttons-icon:before { color: @buttonTextColor; }*/
+
+#post-body .misc-pub-revisions:before, 
+span.wp-media-buttons-icon:before { color: @buttonTextColor; }
+
+.wp-core-ui .button-primary { /*background: @buttonColor !important;*/ color: @buttonTextColor; /*width: 120px !important;*/ text-align: center; /*	border-color: @headerColor1 !important; box-shadow: none !important;*/ vertical-align: middle; }
+
+.wp-core-ui .button-primary:hover { color: darken(@buttonTextColor, 15%); text-decoration: underline; vertical-align: middle; }
+
+.wp-core-ui .button, 
+.wp-core-ui .button-primary, 
+.wp-core-ui .button-secondary { border-radius: 0; border-width: 0; box-shadow: none; height: 28px; padding: 0 10px; }
+
+.media-frame.mode-grid .media-toolbar-secondary > .media-button { height: 28px; margin-bottom: 8px; margin-top: 9px; padding: 0 10px; }
+
+
+
+
+/* Nezotriedene old */
+
+/*.show-menu {background:	@buttonColor !important; color:	@buttonTextColor !important; width:	50% !important; text-align: center !important; border-color:   	@headerColor1 !important; box-shadow: none !important; border-radius: 5px !important; }
+
+
+#poststuff h3, 
+#poststuff h2 { color: @postboxFont !important; } 
+
+.postbox .hndle { border-bottom: 1px solid @postboxBorderColor !important; } 
+.postbox { background: @postboxBackground !important; border-radius: @postboxBorder !important; border: 1px solid @postboxBorderColor !important; } 
+
+.postbox .inside { color: @postboxfontColor !important; } .postbox .inside label, .postbox .inside a {color: @postboxLabelColor !important; }
+
+td, th {color: @fontColor !important; } 
+textarea, select, input { background-color: @textareaInput !important; color: @fontColor !important; } 
+table { border-radius: @postboxBorder @postboxBorder 0 0 !important; } 
+.tabs-panel, ul.category-tabs li.tabs, 
+#major-publishing-actions { background-color: @postboxBackground !important; } 
+#major-publishing-actions { border-radius: 0 0 @postboxBorder @postboxBorder !important; } 
+.closed .hndle { border-bottom: none !important; } 
+.js .meta-box-sortables .postbox.closed .handlediv:before, 
+.js .widgets-holder-wrap.closed .sidebar-name-arrow:before { color: @postboxFont !important; } 
+.postbox select, textarea { width: 100% !important; } 
+*/
+
+
+
+
+
+#profile-page.wrap { 
+	form { background: @contentBackround; border: 1px solid darken(@pageBackground, 10%); padding: 30px 30px 0; }
+	h2 { margin-bottom: 40px; }
+}

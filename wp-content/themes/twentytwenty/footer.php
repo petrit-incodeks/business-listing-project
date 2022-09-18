@@ -37,7 +37,7 @@
 						<p class="powered-by-wordpress">
 							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
 								<?php _e( 'Powered by WordPress', 'twentytwenty' ); ?>
-							</a>
+							</a><!--SOFTACULOUS-->
 						</p><!-- .powered-by-wordpress -->
 
 					</div><!-- .footer-credits -->

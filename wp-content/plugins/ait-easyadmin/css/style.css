@@ -1,0 +1,170 @@
+#wpwrap {
+  background: #e8e8e8;
+  color: #000000;
+}
+.LogoWithNawButtonsWrap {
+  background: -webkit-linear-gradient(#D05756,#D05756);
+  background: -o-linear-gradient(#D05756,#D05756);
+  background: -moz-linear-gradient(#D05756,#D05756);
+  background: linear-gradient(#D05756,#D05756);
+}
+.easyAdmin_menu_holder {
+  background: #3f3f3f;
+  box-sizing: border-box;
+}
+.easyAdmin_menu_holder li a.button-primary {
+  color: #ffffff;
+}
+.easyAdmin_menu_holder li a.button-primary:hover,
+.easyAdmin_menu_holder li a.button-primary:active,
+.easyAdmin_menu_holder li a.button-primary:focus {
+  background: #e8e8e8;
+  box-shadow: none;
+  color: #3f3f3f;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+  outline: none;
+  vertical-align: middle;
+}
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary:focus {
+  background: none;
+  color: #3f3f3f;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+  outline: none;
+  vertical-align: middle;
+}
+.mainNawButtons li a.button-primary {
+  color: #ffffff;
+}
+.mainNawButtons li a.button-primary:hover {
+  color: #6e1f1f;
+}
+.mainNawButtons li a.button-primary:focus {
+  color: #6e1f1f;
+  background: none;
+  box-shadow: none;
+  border: 0 none;
+  text-shadow: none;
+}
+.mainNawButtons li a.viewsite,
+.mainNawButtons li a.viewsite:hover {
+  background: url(img/menu-viewsite.png) no-repeat left center;
+}
+.mainNawButtons li a.profile,
+.mainNawButtons li a.profile:hover {
+  background: url(img/menu-profile.png) no-repeat left center;
+}
+.mainNawButtons li a.logout,
+.mainNawButtons li a.logout:hover {
+  background: url(img/menu-logout.png) no-repeat left center;
+}
+#wpbody {
+  max-width: 1000px !important;
+}
+.wrap {
+  margin: 30px 0;
+  position: relative;
+}
+.wrap h2 {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  color: #000000 !important;
+  padding: 20px 30px;
+}
+#menu-management .menu-edit,
+#menu-settings-column .accordion-container,
+.feature-filter,
+.imgedit-group,
+.manage-menus,
+.menu-item-handle,
+.popular-tags,
+.stuffbox,
+.widget-inside,
+.widget-top,
+.widgets-holder-wrap,
+.wp-editor-container,
+p.popular-tags,
+table.widefat {
+  border: 1px solid #cfcfcf;
+  box-shadow: none;
+}
+.form-table th,
+.subsubsub a .count,
+.tablenav .displaying-num,
+.tablenav .tablenav-pages,
+.subsubsub a {
+  color: #000000;
+}
+table.widefat thead tr th {
+  background: #3f3f3f;
+  color: #ffffff;
+}
+table.widefat thead tr th a {
+  color: #ffffff;
+}
+table.widefat thead tr th a:hover {
+  color: #cccccc;
+}
+table.widefat thead tr th a:active {
+  color: #cccccc;
+}
+table.widefat thead tr th a:focus {
+  color: #cccccc;
+}
+th .comment-grey-bubble:before {
+  color: #ffffff;
+}
+.media-frame.mode-grid .attachments-browser .attachments {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+}
+.wp-filter {
+  border: 1px solid #cfcfcf;
+  box-shadow: none;
+}
+.wp-core-ui .button,
+.wrap .add-new-h2,
+.avada_upload_button {
+  background: #D05756 !important;
+  color: #f7f7f7 !important;
+  text-align: center !important;
+  border-color: #D05756 !important;
+  box-shadow: none !important;
+}
+#post-body .misc-pub-revisions:before,
+span.wp-media-buttons-icon:before {
+  color: #f7f7f7;
+}
+.wp-core-ui .button-primary {
+  color: #f7f7f7;
+  text-align: center;
+  vertical-align: middle;
+}
+.wp-core-ui .button-primary:hover {
+  color: #d1d1d1;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+.wp-core-ui .button,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary {
+  border-radius: 0;
+  border-width: 0;
+  box-shadow: none;
+  height: 28px;
+  padding: 0 10px;
+}
+.media-frame.mode-grid .media-toolbar-secondary > .media-button {
+  height: 28px;
+  margin-bottom: 8px;
+  margin-top: 9px;
+  padding: 0 10px;
+}
+#profile-page.wrap form {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  padding: 30px 30px 0;
+}
+#profile-page.wrap h2 {
+  margin-bottom: 40px;
+}

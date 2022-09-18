@@ -1,0 +1,141 @@
+# Copyright (C) 2015 AitThemes.Club
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AIT Easy Admin\n"
+"Report-Msgid-Bugs-To: https://system.ait-themes.club/support/\n"
+"POT-Creation-Date: 2015-07-06 08:12:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions/adminOptionsPage.php:10
+msgid "Easy Admin"
+msgstr ""
+
+#: functions/adminOptionsPage.php:11
+msgid "Appearance"
+msgstr ""
+
+#: functions/adminOptionsPage.php:108
+msgid "Enable Easy Admin"
+msgstr ""
+
+#: functions/adminOptionsPage.php:144
+msgid "Easy admin logo"
+msgstr ""
+
+#: functions/adminOptionsPage.php:154
+msgid "Background color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:155
+msgid "Content Background color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:156
+msgid "Font color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:157
+msgid "Main font color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:158
+msgid "Header color top"
+msgstr ""
+
+#: functions/adminOptionsPage.php:159
+msgid "Header color bottom"
+msgstr ""
+
+#: functions/adminOptionsPage.php:160
+msgid "Menu Backround color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:161
+msgid "Menu Font color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:162
+msgid "Buttons color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:163
+msgid "Buttons text color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:164
+msgid "Posts, Pages, Comments table main color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:165
+msgid "Header h2 color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:166
+msgid "Postbox background color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:167
+msgid "Postbox title color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:168
+msgid "Postbox border color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:169
+msgid "Postbox font color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:170
+msgid "Postbox label color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:171
+msgid "Input fields color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:172
+msgid "Footer color"
+msgstr ""
+
+#: functions/adminOptionsPage.php:181
+msgid "Postbox and table border radius"
+msgstr ""
+
+#: functions/adminOptionsPage.php:182
+msgid "Max width of Easy Admin"
+msgstr ""
+
+#: functions/appearanceSettings.php:63
+msgid "Easy admin appearance"
+msgstr ""
+
+#: functions/appearanceSettings.php:72
+msgid "Easy Admin Color"
+msgstr ""
+
+#: functions/appearanceSettings.php:97 functions/defaultSettings.php:40
+msgid "Easy Admin settings"
+msgstr ""
+
+#: functions/appearanceSettings.php:119 functions/defaultSettings.php:68
+msgid "Save settings"
+msgstr ""
+
+#: functions/defaultSettings.php:33
+msgid "Easy admin options"
+msgstr ""
+
+#: functions/defaultSettings.php:61
+msgid "Add logo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simplified Wordpress administration"
+msgstr ""

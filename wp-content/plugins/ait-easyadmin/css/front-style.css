@@ -1,0 +1,16 @@
+.easyAdminHeader li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	
+}
+
+html { margin-top: 0px !important; }
+* html body { margin-top: 0px !important; }
+
+.easyAdmin_menu_holder {
+	padding-top:0px;
+	margin-top:0px;
+	line-height:35px;
+	background: black;
+}

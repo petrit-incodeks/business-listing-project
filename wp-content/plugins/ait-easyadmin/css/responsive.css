@@ -1,0 +1,8 @@
+
+@media all and (max-width: 1000px) {
+	#wpwrap { background: #d33 !important; }
+	.LogoWithNawButtons 		{ padding: 20px; }
+	.mainNawButtons 			{ right: 20px; }
+	.easyAdmin_menu_holder ul 	{ padding: 0 20px; }
+
+}
